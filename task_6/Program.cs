@@ -1,4 +1,6 @@
-﻿
+﻿// Задача 62. Заполните спирально массив 4 на 4.
+
+
 Console.WriteLine("Введите значение N Заполнения спирального массива.");
 int n = Convert.ToInt32(Console.ReadLine());
 
@@ -22,7 +24,7 @@ while (temp <= array.GetLength(0) * array.GetLength(1))
 
    else if (i >= j && i + j > array.GetLength(1) - 1)
       j--;
-      
+
    else
       i--;
 }
